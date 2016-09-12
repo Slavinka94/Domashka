@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>DZ-1</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+ </head>
+<body>
+<script>
+   function min(a,b){
+    	if (a<b)
+    	{return a;}
+    	if (b<a)
+    	{return b;}
+    	else {return 0;}
+    }
+    
+    var a = prompt('введите первое число');
+    var b = prompt('введите второе число');
+
+    answer = min(a,b);
+    if (a==undefined || b==undefined){alert("вы зачем нажали отмена ?");}
+    if (answer == 0){
+    	alert ("вы ввели числа " +a+ " и "+b+". Они равны между собой");
+    }
+else{
+    alert ("вы ввели числа " +a+ " и "+b+"." + " Минимальное число : " + answer);}
+  </script>
+</body>
+</html>

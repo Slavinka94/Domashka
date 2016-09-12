@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>test</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+<body>
+<script>
+        function caunt(a,b){
+    	var x=a;
+    	for (var i=1;i<b;i++){
+    		x=x*a;
+    	}
+    	return x;
+    }
+    alert ("возведение в степень, нажмите Ок");
+    var a = prompt('введите число которое надо ввести в степень');
+    var b = prompt('введите степень в которую надо ввести число' + a);
+    var answer = caunt(a,b);
+    alert (a+" "+" в степени "+ b+" = " + answer);
+  </script>
+</body>
+</html>
