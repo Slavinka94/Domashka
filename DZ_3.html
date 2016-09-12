@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>DZ-3</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+ </head>
+<body>
+<script>
+   
+
+
+    var calculator ={
+      read :function(){
+        var x = prompt("Введите первое число");
+        var z = prompt("Введите второе число");
+        this.a = x;
+        this.b = z;
+      },
+
+      sum : function(){
+        return this.a+this.b;
+      },
+      mul : function(){
+        return this.a*this.b;
+      }
+      
+}
+      calculator.read();
+      alert(calculator.sum());
+      alert(calculator.mul());
+
+
+      
+  </script>
+</body>
+</html>
