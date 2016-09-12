@@ -11,10 +11,8 @@
 
     var calculator ={
       read :function(){
-        var x = prompt("Введите первое число");
-        var z = prompt("Введите второе число");
-        this.a = x;
-        this.b = z;
+        this.a = +prompt("Введите первое число");
+        this.b = +prompt("Введите второе число");
       },
 
       sum : function(){
